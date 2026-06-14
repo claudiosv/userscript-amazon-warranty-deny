@@ -1,4 +1,4 @@
-const TARGET_SELECTOR = '#attachSiNoCoverage .a-button-input';
+const TARGET_SELECTOR = "#attachSiNoCoverage .a-button-input";
 
 const observer = new MutationObserver((_mutations) => {
     const noThanksBtn = document.querySelector<HTMLElement>(TARGET_SELECTOR);

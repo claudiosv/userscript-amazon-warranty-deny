@@ -1,6 +1,6 @@
 {
     "name": "userscript-amazon-warranty-deny",
-    "version": "1.0.0",
+    "version": "0.9.9",
     "private": true,
     "description": "Automatically clicks \"No thanks\" on Amazon's warranty popup.",
     "repository": {
