@@ -1,0 +1,19 @@
+.gitignore
+  s_fb5adc3afb5312::t_915e74f31adaca 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "51d72629d94419bf8ece843d3ae53f9843cb649f",
+  "prompts": {},
+  "sessions": {
+    "s_fb5adc3afb5312": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ac45029e-8b6a-4a2f-a538-786fc6b85acf",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Claudio Spiess <claudiosv@users.noreply.github.com>"
+    }
+  }
+}
