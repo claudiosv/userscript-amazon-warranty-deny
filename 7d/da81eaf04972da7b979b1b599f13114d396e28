@@ -1,0 +1,29 @@
+package.json
+  s_6e379943a47e29::t_0c30662d0337a1 3
+src/warranty-deny.ts
+  s_fb5adc3afb5312::t_57ac4b2c5e2bc1 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "7dda81eaf04972da7b979b1b599f13114d396e28",
+  "prompts": {},
+  "sessions": {
+    "s_6e379943a47e29": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd6a016f-3bc7-44ac-89ef-89a966d7af69",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": null
+    },
+    "s_fb5adc3afb5312": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ac45029e-8b6a-4a2f-a538-786fc6b85acf",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Claudio Spiess <claudiosv@users.noreply.github.com>"
+    }
+  }
+}
