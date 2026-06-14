@@ -54,6 +54,7 @@ const banner = [
     `// @version      ${pkg.version}`,
     '// @description  Automatically clicks "No thanks" on Amazon\'s warranty popup.',
     "// @author       Claudios",
+    "// @license      MIT",
     ...matchRules,
     "// @icon         https://www.google.com/s2/favicons?sz=64&domain=amazon.com",
     `// @updateURL    ${releaseBase}/warranty-deny.user.js`,
