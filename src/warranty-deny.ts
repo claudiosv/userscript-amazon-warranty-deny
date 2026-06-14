@@ -1,6 +1,6 @@
 const TARGET_SELECTOR = "#attachSiNoCoverage .a-button-input";
 
-const observer = new MutationObserver((_mutations) => {
+const observer = new MutationObserver(() => {
     const noThanksBtn = document.querySelector<HTMLElement>(TARGET_SELECTOR);
     if (noThanksBtn && noThanksBtn.offsetParent !== null) {
         noThanksBtn.click();
