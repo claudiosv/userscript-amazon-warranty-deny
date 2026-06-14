@@ -1,0 +1,19 @@
+scripts/build.ts
+  s_6e379943a47e29::t_9802670ec7226d 57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "0feb5b315e47d6d6e0fffac32614342c1596994b",
+  "prompts": {},
+  "sessions": {
+    "s_6e379943a47e29": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd6a016f-3bc7-44ac-89ef-89a966d7af69",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Claudio Spiess <claudiosv@users.noreply.github.com>"
+    }
+  }
+}
