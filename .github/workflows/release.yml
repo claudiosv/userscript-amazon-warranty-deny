@@ -1,0 +1,37 @@
+name: Release
+
+on:
+    push:
+        tags:
+            - "v*.*.*"
+
+permissions:
+    contents: write
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v6
+
+            - uses: pnpm/action-setup@v6
+              with:
+                  version: latest
+
+            - uses: actions/setup-node@v6
+              with:
+                  node-version: "26"
+                  cache: pnpm
+
+            - run: pnpm install --frozen-lockfile
+
+            - run: pnpm build
+
+            - name: Publish GitHub release with userscript asset
+              env:
+                  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: |
+                  gh release create ${{ github.ref_name }} \
+                    dist/warranty-deny.user.js \
+                    --title "${{ github.ref_name }}" \
+                    --generate-notes
